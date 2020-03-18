@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".fragments.FAQFragment"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Q1. What are Food Hygiene Ratings?"
+            android:textColor="@color/darkRed"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="6dp"
+            android:textSize="15sp"
+            android:text="The Hygiene Ratings system will help consumers choose where to eat from by giving them information about the hygiene standards. It isn’t easy to judge hygiene standards by appearances alone, so the rating gives you some idea of what’s going on in the kitchen, or behind closed doors."
+            android:textColor="#000" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="3dp"
+            android:padding="3dp"
+            android:background="@color/darkRed"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Q2. Who runs the Hygiene Ratings initiative?"
+            android:textColor="@color/darkRed"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="6dp"
+            android:textSize="15sp"
+            android:text="HungerGo runs the Hygiene Ratings initiative in partnership with third-party auditors from accredited and reputable companies."
+            android:textColor="#000" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="3dp"
+            android:padding="3dp"
+            android:background="@color/darkRed" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Q3. Can I order from two or more restaurants at same time?"
+            android:textColor="@color/darkRed"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="6dp"
+            android:textSize="15sp"
+            android:text="Currently,No.But we will soon we will start delivering from multiple restaurants."
+            android:textColor="#000" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="3dp"
+            android:padding="3dp"
+            android:background="@color/darkRed"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Q4. How to see previous orders?"
+            android:textColor="@color/darkRed"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="6dp"
+            android:textSize="15sp"
+            android:text="Slide from left of the screen then click on the Previous Order option and you are good to go."
+            android:textColor="#000" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="3dp"
+            android:padding="3dp"
+            android:background="@color/darkRed" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Q5. How to place an order?"
+            android:textColor="@color/darkRed"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="6dp"
+            android:textSize="15sp"
+            android:text="First login into your account,then select a restaurant.After that you need to add items to cart then click on proceed to cart and then on place order.After successful order,you will be displayed a successful screen."
+            android:textColor="#000" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="3dp"
+            android:padding="3dp"
+            android:background="@color/darkRed" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Q6. How to reset password when you forgot password?"
+            android:textColor="@color/darkRed"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="6dp"
+            android:textSize="15dp"
+            android:text="On the login screen, tap on forgot password and then enter your registered mobile number and email address.Then click on next and an OTP will be sent to your registered email address.Enter that OTP into the input field and click submit.And your password will be reset."
+            android:textColor="#000" />
+    </LinearLayout>
+</ScrollView>

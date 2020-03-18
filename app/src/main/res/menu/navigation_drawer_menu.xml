@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="@string/home"
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home"/>
+    <item
+        android:title="@string/my_profile"
+        android:id="@+id/my_profile"
+        android:icon="@drawable/ic_user"/>
+<!--    <item-->
+<!--        android:title="Favourite Restaurants"-->
+<!--        android:id="@+id/favourites"-->
+<!--        android:icon="@drawable/ic_favourite"/>-->
+    <item
+        android:title="@string/order_history"
+        android:id="@+id/order_history"
+        android:icon="@drawable/ic_history"/>
+    <item
+        android:title="FAQs"
+        android:id="@+id/faq"
+        android:icon="@drawable/ic_faq"/>
+    <item
+        android:title="@string/logout"
+        android:id="@+id/logout"
+        android:icon="@drawable/ic_logout"/>
+
+</menu>
